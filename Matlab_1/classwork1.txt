@@ -1,0 +1,14 @@
+1) If z = [0 -1 2 4 -2 1 5 3], and J = [5 2 1 6 3 8 4 7], determine what is
+produced by the following sequences of Matlab statements:
+x = z’, A = x*x’, s = x’*x, w = x*J,
+length(x), length(z)
+size(A), size(x), size(z), size(s)
+
+2) create a vector as given below: (Do not manually put the numbers while creating the vector):
+
+			[5 3 1 -1 -3]
+3) create a vector containing odd numbers < 100
+4) create a vector containing 4 equally spaced values between 1 and 1000 (endpoints inclusive)--- [using linspace]
+5) Given integers a and b, and a rational number h, determine a formula for n such
+	that
+linspace(a, b, n) = [a, a+h, a+2h, ..., b] 
